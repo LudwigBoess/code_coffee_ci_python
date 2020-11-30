@@ -29,6 +29,14 @@ class Arithmetic():
         except ZeroDivisionError:
             pass
 
+    def modolo(self):
+        """ Dividing two variables """
+        try:
+            self.mod = self.a % self.b
+            return self.mod
+        except ZeroDivisionError:
+            pass
+
         
 if __name__ == "__main__":
     arith = Arithmetic(3,5)
