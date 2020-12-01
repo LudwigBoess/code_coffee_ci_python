@@ -18,3 +18,6 @@ class TestArithmeticOperations(unittest.TestCase):
 
     def test_division(self):
         self.assertEqual(self.arith.division(),1.5)
+
+    def test_modolo(self):
+        self.assertEqual(self.arith.modolo(),2)
